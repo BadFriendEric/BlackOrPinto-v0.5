@@ -111,6 +111,9 @@ public class Pinto : MonoBehaviour {
 		int blackOrPinto = Random.Range (1,3);
 		solution [0] = leftOrRight;
 		solution [1] = blackOrPinto;
+		print (leftOrRight);
+		print (blackOrPinto);
+
 
 		return solution;
 	}
